@@ -9,12 +9,15 @@ import ProductList from './components/ProductList'
 import Basket from './components/Basket'
 
 function App() {
+
+  const [basket, setBasket] = useState(["name"= "banana", "price"= "5"])
+
   return (
     <div className="App">
       <Header />
       <Search />
       <ProductList data={data} />
-      <Basket />
+      <Basket basket={basket} />
     </div>
   );
 }

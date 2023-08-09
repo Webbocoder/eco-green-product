@@ -1,7 +1,16 @@
 import React from 'react';
 
-function Basket() {
-  return <div>Basket</div>;
+
+function Basket({ basket }) {
+  return 
+  <div>
+  <ul>
+
+    <li>{ basket.name }</li>
+    <li>{ basket.price }</li>
+  
+  </ul>
+  </div>;
 }
 
 export default Basket;
