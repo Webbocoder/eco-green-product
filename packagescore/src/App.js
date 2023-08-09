@@ -18,9 +18,9 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Container>
+      <Container className="mt-4">
         <Row>
-          <Col md={8}>
+          <Col md={8} className="border-right">
             <ProductList data={data} basket={basket} setBasket={setBasket} />
           </Col>
           <Col md={4}>
