@@ -4,7 +4,7 @@
     "productName": "Apple",
     "price": 1.99,
     "packagingScore": 4,
-    "image": "apple.jpg",
+    "image": "https://assets.iceland.co.uk/i/iceland/pink_lady_apples_4_pack_62899_4.jpg?$pdpmain_2x$",
     "companyName": "Fruit Co."
   },
   {
@@ -12,7 +12,7 @@
     "productName": "Banana",
     "price": 0.49,
     "packagingScore": 3.5,
-    "image": "banana.jpg",
+    "image": "https://assets.iceland.co.uk/i/iceland/fyffes_premium_bananas_89322_T1.jpg?$pdpmain_2x$",
     "companyName": "Tropical Delights"
   },
   {
@@ -20,7 +20,7 @@
     "productName": "Carrot",
     "price": 0.75,
     "packagingScore": 4.5,
-    "image": "carrot.jpg",
+    "image": "https://assets.iceland.co.uk/i/iceland/iceland_carrots_880g_77082.jpg?$pdpmain_2x$",
     "companyName": "Veggie Farms"
   },
   {
@@ -28,7 +28,7 @@
     "productName": "Milk",
     "price": 2.49,
     "packagingScore": 3,
-    "image": "milk.jpg",
+    "image": "https://assets.iceland.co.uk/i/iceland/cravendale_semi_skimmed_2l_29015_T1.jpg?$pdpmain_2x$",
     "companyName": "Dairy Delights"
   },
   {
@@ -36,7 +36,7 @@
     "productName": "Bread",
     "price": 1.89,
     "packagingScore": 2.5,
-    "image": "bread.jpg",
+    "image": "https://assets.iceland.co.uk/i/iceland/lathams_loaves_medium_sliced_white_bread_800g_92148_T1.jpg?$pdpmain_2x$",
     "companyName": "Bakery Bliss"
   },
   {
@@ -44,7 +44,7 @@
     "productName": "Salmon",
     "price": 7.99,
     "packagingScore": 4.5,
-    "image": "salmon.jpg",
+    "image": "https://assets.iceland.co.uk/i/iceland/iceland_boneless_2_atlantic_salmon_fillets_240g_77504.jpg?$pdpmain_2x$",
     "companyName": "Seafood Sensations"
   },
   {
@@ -52,7 +52,7 @@
     "productName": "Cheese",
     "price": 3.79,
     "packagingScore": 3,
-    "image": "cheese.jpg",
+    "image": "https://assets.iceland.co.uk/i/iceland/iceland_mature_cheddar_220g_88833.jpg?$pdpmain_2x$",
     "companyName": "Dairy Delights"
   },
   {
@@ -60,7 +60,7 @@
     "productName": "Spinach",
     "price": 1.29,
     "packagingScore": 4,
-    "image": "spinach.jpg",
+    "image": "https://assets.iceland.co.uk/i/iceland/little_leaf_co_mild_baby_spinach_100g_94729_T596.jpg?$pdpmain_2x$",
     "companyName": "Veggie Farms"
   },
   {
@@ -68,7 +68,7 @@
     "productName": "Chicken",
     "price": 5.99,
     "packagingScore": 3.5,
-    "image": "chicken.jpg",
+    "image": "https://assets.iceland.co.uk/i/iceland/iceland_class_a_fresh_chicken_breast_mini_fillets_skinless__boneless_79734.jpg?$pdpmain_2x$",
     "companyName": "Poultry Producers"
   },
   {
@@ -76,7 +76,7 @@
     "productName": "Yogurt",
     "price": 1.25,
     "packagingScore": 3.5,
-    "image": "yogurt.jpg",
+    "image": "https://assets.iceland.co.uk/i/iceland/onken_mango_papaya_passion_fruit_yogurt_450g_51303_T596.jpg?$pdpmain_2x$",
     "companyName": "Dairy Delights"
   }
 ]
