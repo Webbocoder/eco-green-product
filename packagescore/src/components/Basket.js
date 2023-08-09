@@ -19,7 +19,7 @@ function Basket({ basket }) {
         <div className="bg-light border rounded p-3">
           <h2>Basket</h2>
           <span>Basket Score: {staticSum / basket.length} / 5</span>
-          <div className='d-flex justify-content-center'>
+          <div className='d-flex flex-column align-items-center'>
             {/* productName, price, score, image, companyName  */}
             {basket.map((item) => (
               <BasketItem item={item} />
