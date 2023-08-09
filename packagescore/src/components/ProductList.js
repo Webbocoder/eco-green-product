@@ -3,7 +3,7 @@ import ProductCard from "./ProductCard.js";
 
 function ProductList({ data, basket, setBasket }) {
   return (
-    <div>
+    <div className="row">
       {data.map((item) => {
         return (
           <ProductCard
