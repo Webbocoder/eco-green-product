@@ -8,15 +8,17 @@ function ProductCard({ key, id, productName, price, packagingScore, image, compa
   }
 
   return (
-    <div>
-      <img src={image} alt={productName} />
-      <h3>
-        {companyName} {productName}
-      </h3>
-      <p>Package Score: {packagingScore}</p>
-      <p>£{price}</p>
-      {/* TODO: addItem function needs to reflect object product data */}
-      <Button onClick={() => addItem({id, productName, companyName, price, packagingScore, image})}>Add to Basket</Button>
+    <div className="card mb-4 p-2" style={{ width: "400px", height: "400px" }}>
+      <img src={image} alt={productName} className="card-img-top img-fluid" style={{ maxHeight: "50%", objectFit: "contain" }} />
+      <div className="card-body">
+        <h3 className="card-title">
+          {companyName} {productName}
+        </h3>
+        <p className="card-text">Package Score: {packagingScore}</p>
+        <p className="card-text">£{price}</p>
+        {/* TODO: addItem function needs to reflect object product data */}
+        <Button onClick={() => addItem({id, productName, companyName, price, packagingScore, image})}>Add to Basket</Button>
+      </div>
     </div>
   );
 }

@@ -1,6 +1,5 @@
-import React from 'react';
-import BasketItem from './BasketItem';
-
+import React from "react";
+import BasketItem from "./BasketItem";
 
 function Basket({ basket, setBasket }) {
 
@@ -9,19 +8,29 @@ function Basket({ basket, setBasket }) {
     const updatedBasket = basket.filter((basketItem) => basketItem.id !== itemToRemove)
     setBasket(updatedBasket)
   }
+  // const [scoreSum, setScoreSum] = useState(0);
+  let staticSum = 0;
+  basket.forEach((item) => {
+    staticSum = staticSum + item.packagingScore;
+  });
 
   return (
-    <div className="bg-light border rounded p-3">
-      <h2>Basket</h2>
-      <span>Basket Score: 0 / 5</span>
-      <ul>
-      {/* productName, price, score, image, companyName  */}
-        {basket.map((item)=>
+
+    <>
+      {basket.length > 0 && (
+        <div className="bg-light border rounded p-3">
+          <h2>Basket</h2>
+          <span>Basket Score: {staticSum / basket.length} / 5</span>
+          <div className='d-flex flex-column align-items-center'>
+            {/* productName, price, score, image, companyName  */}
+            {basket.map((item)=>
         <BasketItem key={item.id} item = {item} removeFromBasket={removeFromBasket} />
         )}
-      </ul>
-    </div>
-  )
+          </div>
+        </div>
+      )}
+    </>
+  );
 }
 
 export default Basket;
