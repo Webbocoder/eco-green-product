@@ -1,7 +1,7 @@
 import React from 'react';
 import Twitter from './Images/twitter.png';
 import Pinterest from './Images/pinterest.png';
-import { Button } from 'bootstrap';
+import { Button } from 'react-bootstrap';
 
 function Header() {
   return (
