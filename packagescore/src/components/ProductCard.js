@@ -5,7 +5,7 @@ function ProductCard({ productName, price, score, image, companyName, basket, se
 
   function addItem(item) {
     setBasket(prevBasket => [...prevBasket, item]);
-}
+  }
 
   return (
     <div>
