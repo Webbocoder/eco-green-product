@@ -1,11 +1,11 @@
 import React from 'react';
 import Twitter from './Images/twitter.png';
 import Pinterest from './Images/pinterest.png';
-import { Button } from 'bootstrap';
+import { Button } from 'react-bootstrap';
 
 function Header() {
   return (
-    <>
+    <header className="py-3 mb-3 border-bottom">
       <div>
         <p>Logo</p>
         <p>Iceland</p>
@@ -16,7 +16,7 @@ function Header() {
         <img src={Twitter} alt='old twitter logo' />
         <img src={Pinterest} alt='pinterest logo' />
       </div>
-    </>
+    </header>
   );
 }
 
