@@ -11,7 +11,10 @@ import {Basket} from './components/Basket'
 function App() {
   return (
     <div className='App'>
+      <Header/>
+      <Search/>
       <ProductList data={data}/>
+      <Basket/>
     </div>
   );
 }
