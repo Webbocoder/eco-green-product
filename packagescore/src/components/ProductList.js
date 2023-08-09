@@ -10,7 +10,7 @@ function ProductList({ data, basket, setBasket }) {
             key={item.id}
             productName={item.productName}
             price={item.price}
-            score={item.packagingScore}
+            packagingScore={item.packagingScore}
             image={item.image}
             companyName={item.companyName}
             basket={basket}

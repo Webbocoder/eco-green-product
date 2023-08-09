@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from 'react-bootstrap';
+import BasketItem from './BasketItem';
 
 
 function Basket({ basket }) {
@@ -10,8 +10,8 @@ function Basket({ basket }) {
       <h2>Basket</h2>
       <span>Basket Score: 0 / 5</span>
       <ul>
-        <li>{ basket.name }</li>
-        <li>{ basket.price }</li>
+      {/* productName, price, score, image, companyName  */}
+        {basket.map((item)=><BasketItem item = {item}/>)}
       </ul>
     </div>
   )

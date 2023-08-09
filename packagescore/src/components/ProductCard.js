@@ -1,7 +1,7 @@
 import React from "react";
 import {Button} from 'react-bootstrap'
 
-function ProductCard({ productName, price, score, image, companyName, basket, setBasket }) {
+function ProductCard({ productName, price, packagingScore, image, companyName, basket, setBasket }) {
 
   function addItem(item) {
     setBasket(prevBasket => [...prevBasket, item]);
@@ -13,10 +13,10 @@ function ProductCard({ productName, price, score, image, companyName, basket, se
       <h3>
         {companyName} {productName}
       </h3>
-      <p>Package Score: {score}</p>
+      <p>Package Score: {packagingScore}</p>
       <p>£{price}</p>
       {/* TODO: addItem function needs to reflect object product data */}
-      <Button onClick={() => addItem({name: "grapes", price: "10"})}>Add to Basket</Button>
+      <Button onClick={() => addItem({productName, companyName, price, packagingScore, image})}>Add to Basket</Button>
     </div>
   );
 }
