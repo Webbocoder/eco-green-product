@@ -16,13 +16,16 @@ function Basket({ basket, setBasket }) {
 
   // limit the basket score to 1 decimal place
   const basketScore = ( staticSum / basket.length ).toFixed(1) 
+  // Show the total score - all scores added.
+  const total = staticSum
 
   return (
     <>
       {basket.length > 0 && (
         <div className="bg-light border rounded p-3">
           <h2>Basket</h2>
-          <span>Basket Score: { basketScore } / 5</span>
+          <p className="mb-2">Total Packaging Points Earned: {total}</p>
+          <p className="mb-2">Basket Score: { basketScore } / 5</p>
           <div className='d-flex flex-column align-items-center'>
             {/* productName, price, score, image, companyName  */}
             {basket.map((item)=>
