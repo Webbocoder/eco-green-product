@@ -1,6 +1,7 @@
 import React from 'react';
 import Twitter from './Images/twitter.png';
 import Pinterest from './Images/pinterest.png';
+import { Button } from 'bootstrap';
 
 function Header() {
   return (
@@ -10,8 +11,8 @@ function Header() {
         <p>Iceland</p>
       </div>
       <div>
-        <button>Help</button>
-        <button>Store Finder</button>
+        <Button variant='light'>Help</Button>
+        <Button variant='light'>Store Finder</Button>
         <img src={Twitter} alt='old twitter logo' />
         <img src={Pinterest} alt='pinterest logo' />
       </div>
