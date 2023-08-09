@@ -1,20 +1,34 @@
-import React from 'react';
-import BasketItem from './BasketItem';
-
+import React from "react";
+import BasketItem from "./BasketItem";
 
 function Basket({ basket }) {
+  // function calcScore(sumOfScores, numberOfScores) {
+  //   return sumOfScores / numberOfScores;
+  // }
 
+  // const [scoreSum, setScoreSum] = useState(0);
+  let staticSum = 0;
+  basket.forEach((item) => {
+    staticSum = staticSum + item.packagingScore;
+  });
 
   return (
-    <div className="bg-light border rounded p-3">
-      <h2>Basket</h2>
-      <span>Basket Score: 0 / 5</span>
-      <div className='d-flex justify-content-center'>
-      {/* productName, price, score, image, companyName  */}
-        {basket.map((item)=><BasketItem item = {item}/>)}
-      </div>
-    </div>
-  )
+
+    <>
+      {basket.length > 0 && (
+        <div className="bg-light border rounded p-3">
+          <h2>Basket</h2>
+          <span>Basket Score: {staticSum / basket.length} / 5</span>
+          <div className='d-flex justify-content-center'>
+            {/* productName, price, score, image, companyName  */}
+            {basket.map((item) => (
+              <BasketItem item={item} />
+            ))}
+          </div>
+        </div>
+      )}
+    </>
+  );
 }
 
 export default Basket;
