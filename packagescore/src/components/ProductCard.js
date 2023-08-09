@@ -4,11 +4,11 @@ function ProductCard({ productName, price, score, image, companyName }) {
   return (
     <div>
       <img src={image} alt={productName} />
-      <h1>
+      <h3>
         {companyName} {productName}
-      </h1>
-      <p>{score}</p>
-      <p>{price}</p>
+      </h3>
+      <p>Package Score: {score}</p>
+      <p>£{price}</p>
     </div>
   );
 }
