@@ -1,4 +1,9 @@
-function BasketItem({ item }) {
+import { Button } from "react-bootstrap";
+
+
+function BasketItem({ item, removeFromBasket }) {
+
+  console.log("testing for item", item)
 
   return (
     <div>
@@ -8,6 +13,9 @@ function BasketItem({ item }) {
       <img src={item.image} alt={item.productName} />
       <p>Package Score: {item.packagingScore}</p>
       <p>£{item.price}</p>
+      <Button onClick={() => removeFromBasket(item.id) } >
+        Delete item
+      </Button>
     </div>
   );
 }

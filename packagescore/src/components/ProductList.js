@@ -7,7 +7,7 @@ function ProductList({ data, basket, setBasket }) {
       {data.map((item) => {
         return (
           <ProductCard
-            key={item.id}
+            id={item.id}
             productName={item.productName}
             price={item.price}
             packagingScore={item.packagingScore}
