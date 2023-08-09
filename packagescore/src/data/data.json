@@ -1,0 +1,82 @@
+[ 
+  {
+    "id": 1,
+    "productName": "Apple",
+    "price": 1.99,
+    "packagingScore": 4,
+    "image": "apple.jpg",
+    "companyName": "Fruit Co."
+  },
+  {
+    "id": 2,
+    "productName": "Banana",
+    "price": 0.49,
+    "packagingScore": 3.5,
+    "image": "banana.jpg",
+    "companyName": "Tropical Delights"
+  },
+  {
+    "id": 3,
+    "productName": "Carrot",
+    "price": 0.75,
+    "packagingScore": 4.5,
+    "image": "carrot.jpg",
+    "companyName": "Veggie Farms"
+  },
+  {
+    "id": 4,
+    "productName": "Milk",
+    "price": 2.49,
+    "packagingScore": 3,
+    "image": "milk.jpg",
+    "companyName": "Dairy Delights"
+  },
+  {
+    "id": 5,
+    "productName": "Bread",
+    "price": 1.89,
+    "packagingScore": 2.5,
+    "image": "bread.jpg",
+    "companyName": "Bakery Bliss"
+  },
+  {
+    "id": 6,
+    "productName": "Salmon",
+    "price": 7.99,
+    "packagingScore": 4.5,
+    "image": "salmon.jpg",
+    "companyName": "Seafood Sensations"
+  },
+  {
+    "id": 7,
+    "productName": "Cheese",
+    "price": 3.79,
+    "packagingScore": 3,
+    "image": "cheese.jpg",
+    "companyName": "Dairy Delights"
+  },
+  {
+    "id": 8,
+    "productName": "Spinach",
+    "price": 1.29,
+    "packagingScore": 4,
+    "image": "spinach.jpg",
+    "companyName": "Veggie Farms"
+  },
+  {
+    "id": 9,
+    "productName": "Chicken",
+    "price": 5.99,
+    "packagingScore": 3.5,
+    "image": "chicken.jpg",
+    "companyName": "Poultry Producers"
+  },
+  {
+    "id": 10,
+    "productName": "Yogurt",
+    "price": 1.25,
+    "packagingScore": 3.5,
+    "image": "yogurt.jpg",
+    "companyName": "Dairy Delights"
+  }
+]
