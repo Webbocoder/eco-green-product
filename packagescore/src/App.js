@@ -12,14 +12,16 @@ import React from "react";
 
 function App() {
 
-  const [basket, setBasket] = useState ([{"name":"banana", "price":"5"}])
+  const [basket, setBasket] = useState ([])
+
+  console.log(basket)
 
   return (
     <div className="App">
       <Header />
       <Search />
-      <ProductList data={data} />
-      <Basket basket={basket} />
+      <ProductList data={data} basket={basket} setBasket={setBasket} />
+      <Basket basket={basket} setBasket={setBasket} />
     </div>
   );
 }

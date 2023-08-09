@@ -1,7 +1,7 @@
 import React from "react";
 import ProductCard from "./ProductCard.js";
 
-function ProductList({ data }) {
+function ProductList({ data, basket, setBasket }) {
   return (
     <div>
       {data.map((item) => {
@@ -13,6 +13,8 @@ function ProductList({ data }) {
             score={item.packagingScore}
             image={item.image}
             companyName={item.companyName}
+            basket={basket}
+            setBasket={setBasket}
           />
         );
       })}
