@@ -13,7 +13,7 @@ function App() {
 
   const [basket, setBasket] = useState ([])
 
-  console.log(basket)
+  
 
   return (
     <div className="App">
